@@ -17,7 +17,6 @@ Scenario Outline: Verify if place is being added sucessfully using AddPlace API
 @DeletePlace   
 Scenario: Verify if Delete functionality is working
 
-
 Given DeletePlace Payload
 When user calls "deletePlaceAPI" with "POST" http request
 Then the API call got success with Status code 200
